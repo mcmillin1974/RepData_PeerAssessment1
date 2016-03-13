@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1457834224407.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7789D89D",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "nbtono7ybi",
+        "caption" : "wkdayavg_steps",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=wkdayavg_steps&cache_key=nbtono7ybi",
+        "displayedObservations" : 288,
+        "environment" : "",
+        "object" : "wkdayavg_steps",
+        "totalObservations" : 288,
+        "variables" : 2
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

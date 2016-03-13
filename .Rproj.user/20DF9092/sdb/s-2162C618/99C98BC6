@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1457797353752.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "99C98BC6",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "guaz4l3gq2",
+        "caption" : "actdat",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=actdat&cache_key=guaz4l3gq2",
+        "displayedObservations" : "17568",
+        "environment" : "",
+        "object" : "actdat",
+        "totalObservations" : "17568",
+        "variables" : "3"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

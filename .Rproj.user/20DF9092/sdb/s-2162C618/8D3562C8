@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1457834225525.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8D3562C8",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "62oajz1dxs",
+        "caption" : "wkendavg_steps",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=wkendavg_steps&cache_key=62oajz1dxs",
+        "displayedObservations" : 288,
+        "environment" : "",
+        "object" : "wkendavg_steps",
+        "totalObservations" : 288,
+        "variables" : 2
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

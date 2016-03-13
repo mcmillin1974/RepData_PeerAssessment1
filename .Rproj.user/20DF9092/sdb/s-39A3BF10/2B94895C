@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1457905504259.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2B94895C",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1457905504259,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "y49ul6dwq9",
+        "caption" : "totstepsd_na",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=totstepsd_na&cache_key=y49ul6dwq9",
+        "displayedObservations" : "61",
+        "environment" : "",
+        "object" : "totstepsd_na",
+        "totalObservations" : "61",
+        "variables" : "2"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

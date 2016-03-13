@@ -93,7 +93,6 @@ actdat1 <- actdat1 %>% mutate(wkdayend = replace(wkdayend, wkdayend == TRUE, "we
 #despite using dplyr for this entire exercise, it would not group this data.  After 45 minutes, switching to aggregate
 
 wkdayavg_steps <- avg5intwkday %>% ungroup() %>% na.omit() %>% filter(wkdayend == "weekday") %>% select(c(steps, interval, wkdayend)) %>% group_by(interval) %>% summarize(avg = mean(steps))
-> View(wkdayavg_steps)
 
 wkendavg_steps <- avg5intwkday %>% ungroup() %>% na.omit() %>% filter(wkdayend == "weekend") %>% select(c(steps, interval, wkdayend)) %>% group_by(interval) %>% summarize(avg = mean(steps))
 
@@ -107,4 +106,6 @@ weekendplot <- ggplot(wkendavg_steps,aes(interval, avg)) + geom_line() + scale_x
 png(filename = "timeplot3.png")
 multiplot(weekdayplot,weekendplot)
 dev.off()
+
+
 

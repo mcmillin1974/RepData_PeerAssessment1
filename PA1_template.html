@@ -114,8 +114,7 @@ $(document).ready(function () {
 
 <p>echo=FALSE</p>
 <p>The following libraries will need to be loaded to execute the following code.</p>
-<pre class="r"><code>library(dplyr)</code></pre>
-<pre><code>## Warning: package 'dplyr' was built under R version 3.2.4</code></pre>
+<pre class="r"><code>suppressWarnings(library(dplyr))</code></pre>
 <pre><code>## 
 ## Attaching package: 'dplyr'</code></pre>
 <pre><code>## The following objects are masked from 'package:stats':
@@ -124,12 +123,9 @@ $(document).ready(function () {
 <pre><code>## The following objects are masked from 'package:base':
 ## 
 ##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>library(ggplot2)</code></pre>
-<pre><code>## Warning: package 'ggplot2' was built under R version 3.2.4</code></pre>
-<pre class="r"><code>library(timeDate)</code></pre>
-<pre><code>## Warning: package 'timeDate' was built under R version 3.2.3</code></pre>
-<pre class="r"><code>library(gridExtra)</code></pre>
-<pre><code>## Warning: package 'gridExtra' was built under R version 3.2.4</code></pre>
+<pre class="r"><code>suppressWarnings(library(ggplot2))
+suppressWarnings(library(timeDate))
+suppressWarnings(library(gridExtra))</code></pre>
 <pre><code>## 
 ## Attaching package: 'gridExtra'</code></pre>
 <pre><code>## The following object is masked from 'package:dplyr':

@@ -8,11 +8,7 @@ echo=FALSE
 The following libraries will need to be loaded to execute the following code.
 
 ```r
-library(dplyr)
-```
-
-```
-## Warning: package 'dplyr' was built under R version 3.2.4
+suppressWarnings(library(dplyr))
 ```
 
 ```
@@ -33,27 +29,9 @@ library(dplyr)
 ```
 
 ```r
-library(ggplot2)
-```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.2.4
-```
-
-```r
-library(timeDate)
-```
-
-```
-## Warning: package 'timeDate' was built under R version 3.2.3
-```
-
-```r
-library(gridExtra)
-```
-
-```
-## Warning: package 'gridExtra' was built under R version 3.2.4
+suppressWarnings(library(ggplot2))
+suppressWarnings(library(timeDate))
+suppressWarnings(library(gridExtra))
 ```
 
 ```

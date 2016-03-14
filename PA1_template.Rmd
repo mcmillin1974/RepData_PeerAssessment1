@@ -13,10 +13,10 @@ echo=FALSE
 
 The following libraries will need to be loaded to execute the following code.
 ```{r, echo=TRUE}
-library(dplyr)
-library(ggplot2)
-library(timeDate)
-library(gridExtra)
+suppressWarnings(library(dplyr))
+suppressWarnings(library(ggplot2))
+suppressWarnings(library(timeDate))
+suppressWarnings(library(gridExtra))
 ```
 
 ## Loading and preprocessing the data
